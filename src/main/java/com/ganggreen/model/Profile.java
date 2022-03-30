@@ -9,8 +9,6 @@ import static javax.persistence.GenerationType.IDENTITY;
 /**
  * @author Jason MacKeigan
  */
-
-
 @Entity(name = "Project")
 @Table(schema = "profiles")
 public class Profile {

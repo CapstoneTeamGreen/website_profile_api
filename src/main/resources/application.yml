@@ -1,7 +1,7 @@
 server:
   servlet:
     context-path: /profile
-  port: 8078
+  port: 8077
 
 spring:
   application:
