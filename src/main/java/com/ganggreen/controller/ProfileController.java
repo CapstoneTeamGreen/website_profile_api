@@ -19,7 +19,7 @@ import java.util.Optional;
 /**
  * @author Jason MacKeigan
  */
-@RestController("/profile")
+@RestController()
 public class ProfileController {
 
     private final ProfileService projectService;
@@ -27,9 +27,6 @@ public class ProfileController {
     public ProfileController(ProfileService projectService) {
         this.projectService = projectService;
     }
-
-    @Autowired
-    private RestTemplate restTemplate;
 
     @Operation(
             description = "Returns a collection of projects.",
