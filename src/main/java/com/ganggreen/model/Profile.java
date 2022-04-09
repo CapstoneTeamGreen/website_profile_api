@@ -45,6 +45,13 @@ public class Profile {
         this.email = email;
     }
 
+    public Profile(String authorName, String developerType, String aboutMe, String email) {
+        this.authorName = authorName;
+        this.developerType = developerType;
+        this.aboutMe = aboutMe;
+        this.email = email;
+    }
+
     public int getId() {
         return id;
     }

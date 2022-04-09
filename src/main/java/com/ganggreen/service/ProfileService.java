@@ -25,4 +25,8 @@ public class ProfileService {
     public Optional<Profile> findProfileById(int id) {
         return profileRepository.findById(id);
     }
+
+    public void create(Profile profile) {
+        profileRepository.save(profile);
+    }
 }
